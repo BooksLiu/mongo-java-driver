@@ -48,6 +48,7 @@ public abstract class DB {
         _obedientCommands.add("count");
         _obedientCommands.add("distinct");
         _obedientCommands.add("geonear");
+        _obedientCommands.add("superGeoNear");
         _obedientCommands.add("geosearch");
         _obedientCommands.add("geowalk");
         _obedientCommands.add("text");
