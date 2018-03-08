@@ -785,6 +785,7 @@ public class DB {
         OBEDIENT_COMMANDS.add("dbstats");
         OBEDIENT_COMMANDS.add("distinct");
         OBEDIENT_COMMANDS.add("geonear");
+        OBEDIENT_COMMANDS.add("supergeonear");
         OBEDIENT_COMMANDS.add("geosearch");
         OBEDIENT_COMMANDS.add("geowalk");
         OBEDIENT_COMMANDS.add("group");
