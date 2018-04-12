@@ -15,6 +15,18 @@
  */
 
 apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'org.mongodb'
+version = '3.4.3-M1'
+
+task writeNewPom << {
+    pom {
+        project {
+
+        }
+    }.writeTo("$buildDir/../pom.xml")
+}
 
 sourceCompatibility = '1.6'
 targetCompatibility = '1.6'
